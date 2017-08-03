@@ -1,0 +1,95 @@
+body {
+  width: 100%;
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: .4rem;
+  color: #fff;
+  line-height: .4rem;
+  position: relative;
+  background: #393a3f; }
+  header .left {
+    position: absolute;
+    left: .1rem;
+    top: -2px;
+    font-size: .2rem; }
+  header .tit h1 {
+    margin-left: .4rem;
+    font-size: .14rem; }
+  header .right {
+    position: absolute;
+    right: .1rem;
+    top: 5%;
+    transform: rotate(90deg); }
+
+section {
+  flex: 1;
+  position: relative; }
+  section .tan {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+    section .tan .mark {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #818d9b;
+      opacity: .5; }
+    section .tan .con {
+      width: 90%;
+      height: 70%;
+      position: absolute;
+      left: 5%;
+      top: 15%;
+      background: #fff;
+      border-radius: 5px; }
+      section .tan .con dl {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: .4rem 30%; }
+        section .tan .con dl dt {
+          height: auto; }
+          section .tan .con dl dt img {
+            width: 100%; }
+        section .tan .con dl dd {
+          font-size: .14rem;
+          line-height: .2rem; }
+      section .tan .con .form {
+        width: 80%;
+        margin: .15rem 10%; }
+        section .tan .con .form li {
+          border-bottom: 1px solid #ccc;
+          display: flex;
+          margin: .3rem 0; }
+          section .tan .con .form li .tu {
+            flex: 1;
+            height: auto; }
+            section .tan .con .form li .tu img {
+              width: 60%;
+              margin: 0 20%; }
+          section .tan .con .form li .txt, section .tan .con .form li .pwd {
+            flex: 9;
+            outline: none;
+            border: 0;
+            height: .2rem;
+            text-indent: .1rem;
+            padding-bottom: .05rem; }
+      section .tan .con .login {
+        width: 80%;
+        height: .3rem;
+        line-height: .3rem;
+        color: #fff;
+        text-align: center;
+        margin: .4rem 10%;
+        border-radius: 5px;
+        background: #2fba77; }
+
+/*# sourceMappingURL=style.css.map */
